@@ -1,0 +1,159 @@
+@media screen and (max-width: 375px) {
+  header {
+    padding: 20px 0 0 0;
+    width: 90%;
+    height: auto;
+  }
+
+  header ul,
+  .mid {
+    display: none;
+  }
+
+  .mid2 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .p {
+    width: 100%;
+    height: auto;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 800;
+    margin: 15px 0 0 0;
+    color: hsl(240, 100%, 5%);
+  }
+
+  .q {
+    width: 100%;
+    height: auto;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+    color: hsl(236, 13%, 42%);
+  }
+
+  button {
+    width: 50%;
+    height: 45px;
+    background: hsl(5, 85%, 63%);
+    border: none;
+    margin: 0 0 40px 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+
+  .footer {
+    width: 90%;
+    flex-direction: column;
+    margin: 40px 0 20px 0;
+    height: 450px;
+    justify-content: space-between;
+  }
+
+  .e p:nth-child(1),
+  .f p:nth-child(1),
+  .g p:nth-child(1) {
+    margin: 0 0 10px 20px;
+  }
+
+  .e p:nth-child(2),
+  .f p:nth-child(2),
+  .g p:nth-child(2) {
+    margin: 0px 0 10px 20px;
+  }
+
+  .e p:nth-child(3),
+  .f p:nth-child(3),
+  .g p:nth-child(3) {
+    margin: 0px 0 0 20px;
+  }
+
+  .footer div {
+    width: 100%;
+  }
+
+  .footer div img {
+    width: 30%;
+  }
+
+  .mid2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  header img {
+    width: 50px;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 70%;
+    height: 650px;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+  }
+
+  .sidebar img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 35px;
+    height: auto;
+  }
+
+  .sidebar ul {
+    width: 90%;
+    height: auto;
+    list-style: none;
+    position: absolute;
+    top: 100px;
+    left: -40px;
+  }
+
+  li {
+    width: 100%;
+    height: 50px;
+    color: hsl(240, 100%, 5%);
+    font-size: 18px;
+    font-family: "Inter";
+    padding: 0 0 0 25px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  header {
+    width: 90%;
+  }
+
+  .mid {
+    width: 90%;
+  }
+
+  .one {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  header img:nth-child(2) {
+    display: none;
+  }
+}

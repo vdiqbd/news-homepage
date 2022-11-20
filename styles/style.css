@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: yellow; */
+  margin: 0 0 20px 0;
+}
+
+.mid2 {
+  display: none;
+}
+
+header ul {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: green; */
+}
+
+header ul li {
+  list-style: none;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+  font-family: "Inter";
+  cursor: pointer;
+}
+
+header ul li:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.mid {
+  width: 80%;
+  height: auto;
+  margin: 0 0 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.left {
+  /* background: blue; */
+  width: 65%;
+  height: auto;
+}
+
+.bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.one {
+  width: 50%;
+  height: auto;
+  font-size: 55px;
+  font-family: "Inter";
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  /* background: green; */
+}
+
+.two {
+  width: 50%;
+  height: 160px;
+  font-size: 16px;
+  font-family: "Inter";
+  color: hsl(236, 13%, 42%);
+}
+
+p {
+  margin: 0;
+}
+
+.sidebar {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 60%;
+  height: 50px;
+  background: hsl(5, 85%, 63%);
+  border: none;
+  margin: 50px 0 0 0;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(240, 100%, 5%);
+}
+
+.right {
+  width: 32.5%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: hsl(240, 100%, 5%);
+}
+
+.a {
+  font-family: "Inter";
+  width: 90%;
+  height: auto;
+  font-size: 40px;
+  font-weight: bold;
+  color: hsl(35, 77%, 62%);
+  padding: 30px 0 30px 0;
+}
+
+.right div p {
+  font-family: "Inter";
+  color: white;
+}
+
+.b,
+.c,
+.d {
+  width: 90%;
+  height: auto;
+  padding: 28px 0;
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.b .up,
+.c .up,
+.d .up {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.b .down,
+.c .down,
+.d .down {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.b .up:hover,
+.c .up:hover,
+.d .up:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.footer {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.e,
+.f,
+.g {
+  width: 32.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.e p,
+.f p,
+.g p {
+  font-family: "Inter";
+}
+
+.e p:nth-child(1),
+.f p:nth-child(1),
+.g p:nth-child(1) {
+  font-size: 25px;
+  font-weight: bold;
+  color: hsl(236, 13%, 42%);
+  margin: 0 0 20px 20px;
+}
+
+.e p:nth-child(2),
+.f p:nth-child(2),
+.g p:nth-child(2) {
+  font-size: 19px;
+  color: hsl(240, 100%, 5%);
+  font-weight: 700;
+  margin: 5px 0 15px 20px;
+  cursor: pointer;
+}
+
+.e p:nth-child(2):hover,
+.f p:nth-child(2):hover,
+.g p:nth-child(2):hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.e p:nth-child(3),
+.f p:nth-child(3),
+.g p:nth-child(3) {
+  font-size: 16px;
+  color: hsl(236, 13%, 42%);
+  margin: 15px 0 0 20px;
+}
